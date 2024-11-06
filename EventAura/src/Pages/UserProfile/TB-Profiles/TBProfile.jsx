@@ -3,7 +3,7 @@ import TBHeader from '../../../Components/Header/TBHeader'
 import SubFooter from '../../../Components/Footer/SubFooter'
 import TBSidebar from './TBSidebar'
 import profilelogo from '../../../assets/Profile-logo.png';
-
+import '../profile.scss';
 const TBProfile = () => {
   return (
     <>

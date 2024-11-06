@@ -3,6 +3,7 @@ import profilelogo from '../../../assets/Profile-logo.png';
 import TBHeader from './../../../Components/Header/TBHeader';
 import TBSidebar from './TBSidebar';
 import SubFooter from './../../../Components/Footer/SubFooter';
+import '../profile.scss';
 
 const TBChangePW = () => {
   return (
