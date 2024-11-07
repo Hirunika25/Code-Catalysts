@@ -1,5 +1,4 @@
 import React from 'react'
-{/*import { Link } from 'react-router-dom';*/}
 import '../profile.scss';
 import { Link, useLocation } from 'react-router-dom';
 

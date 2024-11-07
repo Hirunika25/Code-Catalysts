@@ -52,6 +52,7 @@ const TBProfile = () => {
             </div>
         </div>
       </main>
+      
       <footer>
         <SubFooter />
       </footer>

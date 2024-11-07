@@ -1,15 +1,15 @@
 import React from 'react'
-import TBHeader from '../../../Components/Header/TBHeader'
-import SubFooter from '../../../Components/Footer/SubFooter'
 import profilelogo from '../../../assets/Profile-logo.png';
 import '../profile.scss';
 import EHSidebar from './EHSidebar';
+import EHHeader from './../../../Components/Header/EHHeader';
+import SubFooter from './../../../Components/Footer/SubFooter';
 
-const EHProfile = () => {
+const EHSignOut = () => {
   return (
     <>
       <header>
-        <TBHeader />
+        <EHHeader />
       </header>
 
       <main>
@@ -29,31 +29,20 @@ const EHProfile = () => {
                 <div className="col-md-9">
                   <div className="card shadow border-0">
                     <div className="card-body profile-details">
-                    <h5 className="text-center"><b>Profile Details</b></h5>
-                    <p className="text-center">@username</p>
-                  
-                  
-                  <div className="details-grid">
-                    <div className="detail-label">Full Name:</div>
-                    <div className="detail-value">Full Name</div>
-                    
-                    <div className="detail-label">Email:</div>
-                    <div className="detail-value">email@gmail.com</div>
-                    
-                    <div className="detail-label">Telephone No:</div>
-                    <div className="detail-value">0779123456</div>
-                  </div>
-
-                  <div className="text-end">
-                    <button className="btn btn-primary mt-3">Edit Profile</button>
-                  </div>
+                        <h5 className="text-center"><b>Do you want to sign out?</b></h5>
+                        <p className="text-center">@username</p><br />
+                        <h5 className="text-center">Are you sure ?</h5><br />
+                      <div className=" text-end">
+                          <button className="btn btn-primary mt-3 me-2">Yes,Sign Out</button>
+                          <button className="btn btn-secondary mt-3">Keep,Signed in</button>
+                        </div>
                     </div>
+                    
                   </div>
                 </div>
             </div>
         </div>
       </main>
-      
       <footer>
         <SubFooter />
       </footer>
@@ -61,4 +50,4 @@ const EHProfile = () => {
   )
 }
 
-export default EHProfile
+export default EHSignOut

@@ -34,6 +34,12 @@ import TBSignOut from './Pages/UserProfile/TB-Profiles/TBSignOut';
 import TBSidebar from './Pages/UserProfile/TB-Profiles/TBSidebar';
 import TBChangePW from './Pages/UserProfile/TB-Profiles/TBChangePW';
 
+import EHSidebar from './Pages/UserProfile/EH-Profiles/EHSidebar';
+import EHSignOut from './Pages/UserProfile/EH-Profiles/EHSignOut';
+import EventHistoryEH from './Pages/UserProfile/EH-Profiles/EventHistoryEH';
+import EHChangePW from './Pages/UserProfile/EH-Profiles/EHChangePW';
+
+
 
 function App() {
 
@@ -83,6 +89,14 @@ function App() {
             <Route path='/TBPurchaseHistory' element = {<TBPurchaseHistory />} />
             <Route path='/TBSignout' element = {<TBSignOut />} />
             <Route path='/TBSidebar' element = {<TBSidebar />} />
+
+            <Route path='/EHChangePW' element = {<EHChangePW />} />
+            <Route path='/EH-EventHistory' element = {<EventHistoryEH />} />
+            <Route path='/EHSignout' element = {<EHSignOut />} />
+            <Route path='/EHSidebar' element = {<EHSidebar />} />
+           
+
+            
             
           </Routes>
       </BrowserRouter>
