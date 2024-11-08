@@ -31,8 +31,8 @@ const Home = () => {
                 <h1>FIND YOUR NEXT <br />AWESOME EVENT <br />HERE!</h1>
                 <p>Let EventAURA help you find the event that's just right for you! <br />Browse our awesome events for fun things to do in your area.</p>
                 <Link to='/browse'className='btn btn-primary'>Browse Event</Link>
-                <br /><Link to='/login'> Login pg</Link> {/*Do not remove this. */}
-                <br /><Link to='/forgotPW'> Forgot pw</Link> {/*Do not remove this. */}
+                <br /><Link to='/login'> #Login pg</Link> {/*Do not remove this. */}
+                <br /><Link to='/forgotPW'> #Forgot pw</Link> {/*Do not remove this. */}
                 
               </div>
             </div>
