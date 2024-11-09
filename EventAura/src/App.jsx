@@ -40,6 +40,14 @@ import EventHistoryEH from './Pages/UserProfile/EH-Profiles/EventHistoryEH';
 import EHChangePW from './Pages/UserProfile/EH-Profiles/EHChangePW';
 
 
+import TBCreateAccount from './Pages/TB/TBCreateAccount';
+import EHLogin from './Pages/EH/EHLogin';
+import EHCreateAccount from './Pages/EH/EHCreateAccount';
+import TBLogin from './Pages/TB/TBLogin';
+
+
+
+
 
 
 
@@ -97,9 +105,10 @@ function App() {
             <Route path='/EHSignout' element = {<EHSignOut />} />
             <Route path='/EHSidebar' element = {<EHSidebar />} />
 
-            
-           
-           
+            <Route path='/TBLogin' element = {<TBLogin />} />
+            <Route path='/TBCreateAccount' element = {<TBCreateAccount />} />
+            <Route path='/EHLogin' element = {<EHLogin />} />
+            <Route path='/EHCreateAccount' element = {<EHCreateAccount />} />
 
             
             

@@ -18,7 +18,7 @@ const SetNewPw = () => {
           <form>
             <input type="password" placeholder="Enter New Password" required />
             <input type="password" placeholder="Confirm New Password" required />
-            <Link to="/PWVerification"><button type="submit">Change Password</button></Link>
+            <button type="submit">Change Password</button>
           </form>
         </div>
       </div>

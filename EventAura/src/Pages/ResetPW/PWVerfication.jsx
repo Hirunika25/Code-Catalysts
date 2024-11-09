@@ -14,7 +14,7 @@ const PWVerfication = () => {
       <div className="reset-password-container">
         <div className="reset-password-overlay">
           <h2>Password Reset</h2>
-          <p>Enterthe verification code that was sent to abc@gmail.com</p>
+          <p>Enter the verification code that was sent to abc@gmail.com</p>
           <form>
             <input type="text" placeholder="Code" required />
             <Link to="/SetNewPw"><button type="submit">Reset</button></Link>
