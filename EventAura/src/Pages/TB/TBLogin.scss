@@ -106,6 +106,8 @@ footer {
     margin-top: 1.5rem;
     color: #ccc;
   }
+
+ 
   
 .social-login .btn-google,
 .social-login .btn-facebook,
@@ -155,3 +157,18 @@ footer {
   opacity: 0.9; 
   background-color: #48CAE4;
 }
+.custom-hr {
+    width: 100%;           
+    border: none;         
+    border-top: 3px solid #ffffff;  
+    margin: 20px auto;    
+  }
+  .custom-link {
+    color: #ffffff;            // Set text color to white
+    text-decoration: none;     // Remove underline
+  }
+  
+  .custom-link:hover {
+    text-decoration: underline; // Optional: underline on hover
+  }
+  
