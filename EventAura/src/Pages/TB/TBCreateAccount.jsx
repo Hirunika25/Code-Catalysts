@@ -11,28 +11,29 @@ const TBCreateAccount = () => {
         </header>
 
         <main>
-          <div className = 'container my-5 d-flex justify-content-center'>
-            <div className = 'login-form my-5'>
-              <div className = 'card  border-0 shadow'>
-                <div className = 'card-body p-4'>
-                  <form>
-                    <h4 className = 'mb-3'>Login Here</h4>
-                    <div className = 'mb-3'>
-                      <label htmlFor ="" className = 'form-label'>Email</label>
-                      <input type = "text" placeholder = 'Email' className = 'form-control' />
-                    </div>
+          {/*<div className="TB-Loginform-container">
+            <div className="TB-Login-overlay">
+              <h2>Create your account</h2>
+              <form>
+                <input type="text" placeholder="Name" required />
+                <input type="text" placeholder="Email" required />
+                <input type="text" placeholder="Telephone No" required />
+                <input type="password" placeholder="Password" required />
+                <input type="password" placeholder="Confirm Password" required />
 
-                    <div className = 'mb-3'>
-                      <label htmlFor ="" className = 'form-label'>Email</label>
-                      <input type = "text" placeholder = 'Email' className = 'form-control' />
-                    </div>
+                <button type="submit">Continue</button>
 
-                    <button className ='btn btn-primary'>Login</button>
-                  </form>
+                <div className="sign-up">
+                  <small> <Link to='/terms'>Terms and Conditions</Link></small>
                 </div>
+              </form>
+              
+              
+              <div className="sign-up">
+                <small>Already Have an account ? <Link to='/TBLogin'>Sign in</Link></small>
               </div>
             </div>
-          </div>
+          </div>*/}
         </main>
       
         <footer>

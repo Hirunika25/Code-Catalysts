@@ -27,6 +27,7 @@ const ForgotPW = () => {
       <footer>
         <SubFooter />
       </footer>
+      
     </>
   )
 }
