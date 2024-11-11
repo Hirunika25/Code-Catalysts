@@ -33,6 +33,7 @@ const Home = () => {
                 <Link to='/browse'className='btn btn-primary'>Browse Event</Link>
                 <br /><Link to='/TBLogin'> #TB Login pg</Link> {/*Do not remove this. */}
                 <br /><Link to='/EHLogin'> #EH Login pg</Link> {/*Do not remove this. */}
+                <br /><Link to='/OtherLogin'> #Admin/Developer/Manager Login pg</Link> {/*Do not remove this. */}
 
               </div>
             </div>

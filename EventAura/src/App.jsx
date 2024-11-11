@@ -5,25 +5,13 @@ import './style.scss'
 
 import Home from './Pages/Home/Home';
 import AboutUS from './Pages/AboutUS/AboutUS';
-import CreateEvent from './Pages/CreateEvent/CreateEvent';
 import BrowseEvent from './Pages/BrowseEvent/BrowseEvent';
 
-import AdminProfile from './Pages/UserProfile/AdminProfile';
-import DeveloperProfile from './Pages/UserProfile/DeveloperProfile';
 import EHProfile from './Pages/UserProfile/EH-Profiles/EHProfile';
-import ManagerProfile from './Pages/UserProfile/ManagerProfile';
 import TBProfile from './Pages/UserProfile/TB-Profiles/TBProfile';
-
-import A_Dashboard from './Pages/Admin/A_Dashboard';
-import D_Dasboard from './Pages/Developer/D_Dasboard';
-import M_Dashboard from './Pages/Manager/M_Dashboard';
-
-import Ongoing from './Pages/OngoingEvents/Ongoing';
-import PendingRequests from './Pages/PendingRequests/PendingRequests';
 
 import HelpCentre from './Pages/HelpCentre/HelpCentre';
 import ReviewPg from './Pages/ReviewPg/ReviewPg';
-import EventDetails from './Pages/EventDetails/EventDetails';
 
 import ForgotPW from './Pages/ResetPW/ForgotPW';
 import PWVerfication from './Pages/ResetPW/PWVerfication';
@@ -45,6 +33,8 @@ import EHLogin from './Pages/EH/EHLogin';
 import EHCreateAccount from './Pages/EH/EHCreateAccount';
 import TBLogin from './Pages/TB/TBLogin';
 
+import OtherLogin from './Pages/OtherLogin/OtherLogin';
+
 
 
 
@@ -61,13 +51,9 @@ function App() {
             <Route path='/' element = {<Home/>} />
             <Route path='/about' element = {<AboutUS/>} />
             <Route path='/browse' element = {<BrowseEvent />} />
-            <Route path='/create' element = {<CreateEvent />} />
             {/*<Route path='/contact' element = {<>} />*/}
             
-            <Route path='/admin' element = {<AdminProfile />} />
-            <Route path='/developer' element = {<DeveloperProfile />} />
             <Route path='/EHaccount' element = {<EHProfile />} />
-            <Route path='/manager' element = {<ManagerProfile />} />
             <Route path='/TBaccount' element = {<TBProfile />} />
           
             {/*<Route path='/terms' element = {<>} />*/}
@@ -79,14 +65,8 @@ function App() {
             {/*<Route path='/license' element = {<>} />*/}
             {/*<Route path='/privacy-terms' element = {<>} />*/}
 
-            <Route path='/AdimnDashboard' element = {<A_Dashboard/>} />
-            <Route path='/DeveloperDashboard' element = {<D_Dasboard/>} />
-            <Route path='/ManagerDashboard' element = {<M_Dashboard/>} />
 
-            <Route path='/ongoing' element = {<Ongoing/>} />
-            <Route path='/pendingRequests' element = {<PendingRequests/>} />
             {/*<Route path='/inquiries' element = {<>} />*/}
-            <Route path='/eventDetails' element = {<EventDetails/>} />
 
             <Route path='/help' element = {<HelpCentre/>} />
             <Route path='/review' element = {<ReviewPg/>} />
@@ -109,6 +89,8 @@ function App() {
             <Route path='/TBCreateAccount' element = {<TBCreateAccount />} />
             <Route path='/EHLogin' element = {<EHLogin />} />
             <Route path='/EHCreateAccount' element = {<EHCreateAccount />} />
+
+            <Route path='/OtherLogin' element = {<OtherLogin />} />
 
             
             
