@@ -18,7 +18,7 @@ const SearchBar = () => {
 
             <Dropdown onSelect={handleFilterSelect}>
               <Dropdown.Toggle variant="outline-secondary">
-                Filter: {filter}
+                Filter by: {filter}
               </Dropdown.Toggle>
               <Dropdown.Menu>
                 <Dropdown.Item eventKey="All">All</Dropdown.Item>
@@ -29,7 +29,7 @@ const SearchBar = () => {
             </Dropdown>
 
             <FormControl
-              placeholder="Search events"
+              placeholder="Search"
               value={search}
               onChange={handleSearchChange}
             />

@@ -3,7 +3,7 @@
         justify-content: center;
         align-items: center;
         min-height: 100vh;
-        /*background-image: url('../../assets/BG-3.jpg'); */
+        background-image: url('../../assets/BG-9.png'); 
         /*background: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url('../../assets/BG-1.png');*/
         background-size: cover;
         background-position: center;
@@ -25,7 +25,8 @@
     }
     .OL-Login-overlay h2 {
       margin-bottom: 0.5rem;
-      font-size: 24px;
+      font-size: 30px;
+      color: black
     }
     
     .OL-Login-overlay input {
@@ -46,7 +47,7 @@
     .OL-Login-overlay button {
       width: 100%;
       padding: 0.75rem;
-      background-color: #48CAE4;
+      background-color: black;
       color: #fff;
       border: none;
       border-radius: 0;

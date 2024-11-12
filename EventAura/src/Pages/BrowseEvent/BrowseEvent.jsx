@@ -1,6 +1,6 @@
 import React from 'react'
 import TBHeader from './../../Components/Header/TBHeader';
-import MainFooter from './../../Components/Footer/MainFooter';
+import SubFooter from './../../Components/Footer/SubFooter';
 import './BrowseEvent.scss';
 import { Link } from 'react-router-dom';
 
@@ -39,7 +39,7 @@ const BrowseEvent = () => {
                   </div>
                   <div className = 'event-footer d-flex justify-content-between align-items-center mt-3'>
                       <p className='event-price'>2,000 LKR <span className="price-subtext"><br/>upwards</span></p>
-                      <Link to = '/eventDetails' className='btn btn-primary'>Book Now</Link>
+                      <Link to = '/TBEventDetails' className='btn btn-primary'>Book Now</Link>
                   </div>
                 </div>
               </div>
@@ -59,7 +59,7 @@ const BrowseEvent = () => {
                 </div>
                 <div className = 'event-footer d-flex justify-content-between align-items-center mt-3'>
                     <p className='event-price'>2,000 LKR <span className="price-subtext"><br/>upwards</span></p>
-                    <Link to = '/eventDetails' className='btn btn-primary'>Book Now</Link>
+                    <Link to = '/TBEventDetails' className='btn btn-primary'>Book Now</Link>
                 </div>
               </div>
              </div>
@@ -79,7 +79,7 @@ const BrowseEvent = () => {
                     </div>
                     <div className = 'event-footer d-flex justify-content-between align-items-center mt-3'>
                           <p className='event-price'>2,000 LKR <span className="price-subtext"><br/>upwards</span></p>
-                          <Link to = '/eventDetails' className='btn btn-primary'>Book Now</Link>
+                          <Link to = '/TBEventDetails' className='btn btn-primary'>Book Now</Link>
                     </div>
                 </div>
               </div>
@@ -103,7 +103,7 @@ const BrowseEvent = () => {
                     </div>
                     <div className = 'event-footer d-flex justify-content-between align-items-center mt-3'>
                           <p className='event-price'>2,000 LKR <span className="price-subtext"><br/>upwards</span></p>
-                          <Link to = '/eventDetails' className='btn btn-primary'>Book Now</Link>
+                          <Link to = '/TBEventDetails' className='btn btn-primary'>Book Now</Link>
                     </div>
                 </div>
               </div>
@@ -123,7 +123,7 @@ const BrowseEvent = () => {
                     </div>
                     <div className = 'event-footer d-flex justify-content-between align-items-center mt-3'>
                           <p className='event-price'>2,000 LKR <span className="price-subtext"><br/>upwards</span></p>
-                          <Link to = '/eventDetails' className='btn btn-primary'>Book Now</Link>
+                          <Link to = '/TBEventDetails' className='btn btn-primary'>Book Now</Link>
                     </div>
                 </div>
               </div>
@@ -143,7 +143,7 @@ const BrowseEvent = () => {
                     </div>
                     <div className = 'event-footer d-flex justify-content-between align-items-center mt-3'>
                           <p className='event-price'>2,000 LKR <span className="price-subtext"><br/>upwards</span></p>
-                          <Link to = '/eventDetails' className='btn btn-primary'>Book Now</Link>
+                          <Link to = '/TBEventDetails' className='btn btn-primary'>Book Now</Link>
                     </div>
                 </div>
               </div>
@@ -161,7 +161,7 @@ const BrowseEvent = () => {
       </section>
 
       <footer>
-        <MainFooter />
+        <SubFooter />
       </footer>
     </>
   )

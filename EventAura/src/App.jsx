@@ -5,7 +5,11 @@ import './style.scss'
 
 import Home from './Pages/Home/Home';
 import AboutUS from './Pages/AboutUS/AboutUS';
+
 import BrowseEvent from './Pages/BrowseEvent/BrowseEvent';
+import TBEventDetails from './Pages/BrowseEvent/TBEventDetails';
+import BuyTickets from './Pages/BrowseEvent/BuyTickets';
+import TBCart from './Pages/BrowseEvent/TBCart';
 
 import EHProfile from './Pages/UserProfile/EH-Profiles/EHProfile';
 import TBProfile from './Pages/UserProfile/TB-Profiles/TBProfile';
@@ -32,8 +36,11 @@ import TBCreateAccount from './Pages/TB/TBCreateAccount';
 import EHLogin from './Pages/EH/EHLogin';
 import EHCreateAccount from './Pages/EH/EHCreateAccount';
 import TBLogin from './Pages/TB/TBLogin';
-
 import OtherLogin from './Pages/OtherLogin/OtherLogin';
+import TBPayment from './Pages/BrowseEvent/TBPayment';
+
+
+
 
 
 
@@ -50,9 +57,14 @@ function App() {
             
             <Route path='/' element = {<Home/>} />
             <Route path='/about' element = {<AboutUS/>} />
-            <Route path='/browse' element = {<BrowseEvent />} />
             {/*<Route path='/contact' element = {<>} />*/}
-            
+
+            <Route path='/browse' element = {<BrowseEvent />} />
+            <Route path='/TBEventDetails' element = {<TBEventDetails />} />
+            <Route path='/BuyTickets' element = {<BuyTickets />} />
+            <Route path='/TBCart' element = {<TBCart />} />
+            <Route path='/TBPayment' element = {<TBPayment />} />
+
             <Route path='/EHaccount' element = {<EHProfile />} />
             <Route path='/TBaccount' element = {<TBProfile />} />
           
@@ -67,6 +79,8 @@ function App() {
 
 
             {/*<Route path='/inquiries' element = {<>} />*/}
+            {/*<Route path='/return-policies' element = {<>} />*/}
+            {/*<Route path='/HostContact' element = {<>} />*/}
 
             <Route path='/help' element = {<HelpCentre/>} />
             <Route path='/review' element = {<ReviewPg/>} />
@@ -89,7 +103,6 @@ function App() {
             <Route path='/TBCreateAccount' element = {<TBCreateAccount />} />
             <Route path='/EHLogin' element = {<EHLogin />} />
             <Route path='/EHCreateAccount' element = {<EHCreateAccount />} />
-
             <Route path='/OtherLogin' element = {<OtherLogin />} />
 
             

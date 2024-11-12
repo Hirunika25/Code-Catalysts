@@ -15,7 +15,7 @@ const OtherLogin = () => {
         <main>
           <div className="OL-LoginForm-container ">
             <div className="OL-Login-overlay">
-              <h2>Login</h2>
+              <h2><b>Login</b></h2>
 
               <br />
 
@@ -25,7 +25,7 @@ const OtherLogin = () => {
                 <div className="forgot-password">
                   <small><Link to="/ForgotPW">Forgot Password?</Link></small>
                 </div>
-                <button type="submit">Sign In</button>
+                <button type="submit" >Sign In</button>
               </form>
 
             </div>
