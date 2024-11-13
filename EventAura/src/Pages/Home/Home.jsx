@@ -28,7 +28,7 @@ const Home = () => {
           <div className = 'topic d-flex align-items-center'>
             <div className='container-fluid'>
               <div className='text-center'>
-                <h1>FIND YOUR NEXT <br />AWESOME EVENT <br />HERE!</h1>
+                <h1><b>FIND YOUR NEXT <br />AWESOME EVENT <br />HERE!</b></h1>
                 <p>Let EventAURA help you find the event that's just right for you! <br />Browse our awesome events for fun things to do in your area.</p>
                 <Link to='/browse'className='btn btn-primary'>Browse Event</Link>
                 <br /><Link to='/TBLogin'> #TB Login pg</Link> {/*Do not remove this. */}
@@ -46,7 +46,7 @@ const Home = () => {
         <div className = 'topic d-flex align-items-center'>
           <div className='container-fluid'>
             <div className='text-center'>
-              <h1>LOOKING TO PUBLISH YOUR EVENT?</h1>
+              <h1><b>LOOKING TO PUBLISH YOUR EVENT?</b></h1>
               <p>PLanning your events and selling tickets has never benn easier with <br />EventAura's super user-friendly platform by your side!</p>
               <Link to='/create' className='btn btn-primary'>Create Event</Link >
             </div>
@@ -62,7 +62,7 @@ const Home = () => {
 
             <div className = 'row'>
                 <div className='col-md-6 '>
-                  <h3>EASIEST EVENT HANDLING AND TICKETING PLATFORM</h3>
+                  <h3><b>EASIEST EVENT HANDLING AND TICKETING PLATFORM</b></h3>
                   <p>Planning your events and selling tickets has never been<br />
                    easier with EventAUra's super user-friendly platform <br />
                    by your side</p>
@@ -79,7 +79,7 @@ const Home = () => {
                     <img src = {HomeImg1} alt = "Img1" className='Img'/>
                 </div>
                 <div className='col-md-6 '>
-                  <h2>NEED HELP</h2>
+                  <h2><b>NEED HELP</b></h2>
                   <p>Our user-friendly TicketLeap help center is always <br />
                   buzzing with the latest updates to empower you to plan <br />
                   your next event with confidence! It's also a handy <br />
@@ -99,7 +99,7 @@ const Home = () => {
           <div className = 'topic d-flex align-items-center'>
             <div className='container-fluid'>
               <div className='text-center'>
-                <h1>STAY UPDATED</h1>
+                <h1><b>STAY UPDATED</b></h1>
                 <div className='d-flex justify-content-center mt-4'>
                     
                     <Link to="https://www.facebook.com" target="_blank" rel="noopener noreferrer">

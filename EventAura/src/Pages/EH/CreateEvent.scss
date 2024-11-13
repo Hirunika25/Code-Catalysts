@@ -1,0 +1,147 @@
+.create-event {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+  
+    h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+  
+    .event-form {
+      width: 80%;
+      max-width: 800px;
+      background-color: #9fb9c4;
+      padding: 30px;
+      border-radius: 10px;
+      color: #333;
+  
+      /*.event-details, .ticket-categories {
+        margin-bottom: 30px;
+        
+        .header-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+
+        h2 {
+          font-size: 1.5em;
+          margin: 0;
+          padding-right: 10px;
+        }
+        
+        }
+
+        label {
+          display: block;
+          margin-bottom: 5px;
+          font-weight: bold;
+        }
+  
+        input, textarea, button {
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 15px;
+          border: none;
+          border-radius: 5px;
+        }
+  
+        .time-inputs {
+          display: flex;
+          gap: 10px;
+  
+          input {
+            width: calc(50% - 5px);
+          }
+        }
+  
+        .ticket-types {
+          display: flex;
+          justify-content: space-between;
+  
+          div {
+            flex: 1;
+            margin-right: 10px;
+  
+            &:last-child {
+              margin-right: 0;
+            }
+          }
+        }
+  
+        .submit-btn {
+          background-color: #333;
+          color: #fff;
+          cursor: pointer;
+          &:hover {
+            background-color: #555;
+          }
+        }
+      }*/
+      .event-details {
+        display: flex;
+        flex-direction: column;
+    
+        .header-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+    
+            h2 {
+                font-size: 1.5em;
+                margin: 0;
+                padding-right: 10px;
+            }
+        }
+    
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+    
+        input, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 5px;
+        }
+    
+        .horizontal-group {
+            display: flex;
+            gap: 10px;
+    
+            & > div {
+                flex: 1;
+            }
+        }
+    
+        .submit-btn {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+            &:hover {
+                background-color: #555;
+            }
+        }
+    }
+    
+    }
+  }
+  
+  footer {
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+  

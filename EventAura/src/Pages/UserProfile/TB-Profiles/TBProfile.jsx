@@ -17,7 +17,7 @@ const TBProfile = () => {
                 <div className="card-body text-center">
                     <h1><b>Hi Anura!</b></h1>
                     <h4><b>Welcome to Your Profile</b></h4>
-                    <img src= {profilelogo} alt="Avatar"className="profile-avatar" />
+                    <img src= {profilelogo} alt="Avatar"className="profile-avatar mx-auto d-block" />
                 </div>
               </div>
 

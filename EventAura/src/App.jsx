@@ -31,13 +31,16 @@ import EHSignOut from './Pages/UserProfile/EH-Profiles/EHSignOut';
 import EventHistoryEH from './Pages/UserProfile/EH-Profiles/EventHistoryEH';
 import EHChangePW from './Pages/UserProfile/EH-Profiles/EHChangePW';
 
-
+import TBLogin from './Pages/TB/TBLogin';
 import TBCreateAccount from './Pages/TB/TBCreateAccount';
+
 import EHLogin from './Pages/EH/EHLogin';
 import EHCreateAccount from './Pages/EH/EHCreateAccount';
-import TBLogin from './Pages/TB/TBLogin';
+import CreateEvent from './Pages/EH/CreateEvent';
+
 import OtherLogin from './Pages/OtherLogin/OtherLogin';
 import TBPayment from './Pages/BrowseEvent/TBPayment';
+
 
 
 
@@ -99,10 +102,14 @@ function App() {
             <Route path='/EHSignout' element = {<EHSignOut />} />
             <Route path='/EHSidebar' element = {<EHSidebar />} />
 
+
             <Route path='/TBLogin' element = {<TBLogin />} />
             <Route path='/TBCreateAccount' element = {<TBCreateAccount />} />
+
             <Route path='/EHLogin' element = {<EHLogin />} />
             <Route path='/EHCreateAccount' element = {<EHCreateAccount />} />
+            <Route path='/create' element = {<CreateEvent />} />
+
             <Route path='/OtherLogin' element = {<OtherLogin />} />
 
             
