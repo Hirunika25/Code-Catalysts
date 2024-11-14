@@ -16,6 +16,7 @@ const SubFooter = () => {
           <h1>Connect With US</h1>
           <Link to = '/review' className = 'element'>Leave a Review</Link>
           <Link to = '/help' className = 'element'><br />Help Center</Link>
+
           <div className="social-icons d-flex justify-content-center mt-4">
             <Link to="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
               <img src={FB} alt="Facebook" className="social-icon mx-5" />
@@ -30,6 +31,7 @@ const SubFooter = () => {
               <img src={LinkedIn} alt="LinkedIn" className="social-icon mx-5" />
             </Link>
           </div>
+          
         </div>
 
         {/* Links Section */}
