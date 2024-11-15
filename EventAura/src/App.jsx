@@ -37,9 +37,11 @@ import TBCreateAccount from './Pages/TB/TBCreateAccount';
 import EHLogin from './Pages/EH/EHLogin';
 import EHCreateAccount from './Pages/EH/EHCreateAccount';
 import CreateEvent from './Pages/EH/CreateEvent';
+import EHCart from './Pages/EH/EHCart';
 
 import OtherLogin from './Pages/OtherLogin/OtherLogin';
-import TBPayment from './Pages/BrowseEvent/TBPayment';
+import PaymentGate from './Pages/PaymentGate/PaymentGate';
+
 
 
 
@@ -66,7 +68,6 @@ function App() {
             <Route path='/TBEventDetails' element = {<TBEventDetails />} />
             <Route path='/BuyTickets' element = {<BuyTickets />} />
             <Route path='/TBCart' element = {<TBCart />} />
-            <Route path='/TBPayment' element = {<TBPayment />} />
 
             <Route path='/EHaccount' element = {<EHProfile />} />
             <Route path='/TBaccount' element = {<TBProfile />} />
@@ -109,8 +110,10 @@ function App() {
             <Route path='/EHLogin' element = {<EHLogin />} />
             <Route path='/EHCreateAccount' element = {<EHCreateAccount />} />
             <Route path='/create' element = {<CreateEvent />} />
+            <Route path='/EHCart' element = {<EHCart />} />
 
             <Route path='/OtherLogin' element = {<OtherLogin />} />
+            <Route path='/PaymentGate' element = {<PaymentGate />} />
 
             
             

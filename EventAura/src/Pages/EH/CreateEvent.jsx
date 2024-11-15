@@ -151,7 +151,7 @@ const CreateEvent = () => {
             </section>
             <div className="center-content">
               <h4>Submit event creation request</h4>
-              <button type="submit" className="submit-btn">Submit</button>
+              <Link to="/EHCart" className="submit-btn">Submit</Link>
             </div>
           </form>
       </main>
