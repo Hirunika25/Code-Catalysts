@@ -34,6 +34,7 @@ const Home = () => {
                 <br /><Link to='/TBLogin'> #TB Login pg</Link> {/*Do not remove this. */}
                 <br /><Link to='/EHLogin'> #EH Login pg</Link> {/*Do not remove this. */}
                 <br /><Link to='/OtherLogin'> #Admin/Developer/Manager Login pg</Link> {/*Do not remove this. */}
+                <br /><Link to='/EHHome'> #EH Home pg</Link> {/*Do not remove this. */}
 
               </div>
             </div>

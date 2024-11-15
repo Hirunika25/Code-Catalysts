@@ -38,17 +38,11 @@ import EHLogin from './Pages/EH/EHLogin';
 import EHCreateAccount from './Pages/EH/EHCreateAccount';
 import CreateEvent from './Pages/EH/CreateEvent';
 import EHCart from './Pages/EH/EHCart';
+import EHHome from './Pages/EH/EHHome';
+import OngoingEvents from './Pages/EH/OngoingEvents';
 
 import OtherLogin from './Pages/OtherLogin/OtherLogin';
 import PaymentGate from './Pages/PaymentGate/PaymentGate';
-
-
-
-
-
-
-
-
 
 
 
@@ -102,8 +96,7 @@ function App() {
             <Route path='/EH-EventHistory' element = {<EventHistoryEH />} />
             <Route path='/EHSignout' element = {<EHSignOut />} />
             <Route path='/EHSidebar' element = {<EHSidebar />} />
-
-
+            
             <Route path='/TBLogin' element = {<TBLogin />} />
             <Route path='/TBCreateAccount' element = {<TBCreateAccount />} />
 
@@ -111,11 +104,11 @@ function App() {
             <Route path='/EHCreateAccount' element = {<EHCreateAccount />} />
             <Route path='/create' element = {<CreateEvent />} />
             <Route path='/EHCart' element = {<EHCart />} />
+            <Route path='/EHHome' element = {<EHHome />} />
+            <Route path='/OngoingEvents' element = {<OngoingEvents />} />
 
             <Route path='/OtherLogin' element = {<OtherLogin />} />
             <Route path='/PaymentGate' element = {<PaymentGate />} />
-
-            
             
           </Routes>
       </BrowserRouter>
