@@ -23,42 +23,39 @@ const TBEventDetails = () => {
 
       {/* Event Details Section */}
       <section className="event-details">
+
         <div className="banner">
           <h1 className="banner-title"><b>SKY HEROES</b></h1>
         </div>
         
         <div className="event-info">
 
-          <div className="event-poster">
-            <img src={BannerImage} alt="Event Poster" />
-          </div>
-
-          <div className="event-description">
-            <p>Join us for an unforgettable night of live music at Rythms Under the Stars!
-            Featuring renowned artistsacross genres like rock.pop and indie.This  concert 
-            will be held in the beautiful setting of National Youth Service Council Auditorium, Maharagama.Enjoy mesmerizing
-            performance under the night sky with delicious food stalls,cozy seating and vibrant atmosphere.</p>
-           
-                <div className="centered-event-meta">
-                  <p><strong>Date:</strong> 01 April 2025</p>
-                  <p><strong>Venue:</strong> National Youth Service Council Auditorium | Maharagama</p>
-                  <p><strong>Organizer:</strong>Eventmela</p>
-                
-                  <div className="button-row">
-                      <a href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer" className="button-link">Location</a>
-                      {/* Download PDF */}
-                      <a href="/path/to/agenda.pdf" download className="button-link">Agenda.pdf</a> {/*set the path */}
-                  </div>
-
-                </div>
-
-                <div className="event-buttons">
-                  <Link to="/BuyTickets" className="buy-tickets">Buy Tickets</Link>
-                  <Link to="/return-policies" className="return-policies">Return Policies</Link>
-                </div>
-
-              </div>
+            <div className="event-poster">
+              <img src={BannerImage} alt="Event Poster" />
             </div>
+
+            <div className="event-description">
+              <p>Join us for an unforgettable night of live music at Rythms Under the Stars!
+              Featuring renowned artistsacross genres like rock.pop and indie.This  concert 
+              will be held in the beautiful setting of National Youth Service Council Auditorium, Maharagama.Enjoy mesmerizing
+              performance under the night sky with delicious food stalls,cozy seating and vibrant atmosphere.</p>
+                  <div className="event-meta">
+                    <p><strong>Date:</strong> 01 April 2025</p>
+                    <p><strong>Venue:</strong> National Youth Service Council Auditorium | Maharagama</p>
+                    <p><strong>Organizer:</strong>Eventmela</p>
+                    <div className="button-row">
+                        <a href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer" className="button-link">Location</a>
+                        {/* Download PDF */}
+                        <a href="/path/to/agenda.pdf" download className="button-link">Agenda.pdf</a> {/*set the path */}
+                    </div>
+                  </div>
+                  <div className="event-buttons">
+                    <Link to="/BuyTickets" className="buy-tickets">Buy Tickets</Link>
+                    <Link to="/return-policies" className="return-policies">Return Policies</Link>
+                  </div>
+            </div>
+            
+        </div>
         
       </section>
 

@@ -16,10 +16,12 @@ const SearchBar = () => {
         <div className="container d-flex justify-content-center">
           <InputGroup className="w-75">
 
-            <Dropdown onSelect={handleFilterSelect}>
+            <Dropdown onSelect={handleFilterSelect} className="dropdown">
+              
               <Dropdown.Toggle variant="outline-secondary">
                 Filter by: {filter}
               </Dropdown.Toggle>
+
               <Dropdown.Menu>
                 <Dropdown.Item eventKey="All">All</Dropdown.Item>
                 <Dropdown.Item eventKey="Upcoming">Upcoming</Dropdown.Item>
@@ -39,6 +41,7 @@ const SearchBar = () => {
             </InputGroup.Text>
 
           </InputGroup>
+
         </div>
       </section>
       </>

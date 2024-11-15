@@ -86,7 +86,7 @@
     .date-input {
       display: flex;
       flex-direction: column;
-      margin-right: 16rem;
+      margin-right: 20rem;
       margin-bottom: 0.6rem;;
     }
     
@@ -108,6 +108,9 @@
 
     .city-input {
       margin-right: 15rem; 
+    }
+    .venue-input{
+      margin-right: 4.5rem;
     }
     
     label {
@@ -138,7 +141,7 @@
       margin-bottom: 0.5rem;
     }
     .file-upload input {
-      margin-right: 17rem; /* Reduce space between input and button */
+      margin-right: 22rem; /* Reduce space between input and button */
     }
     .upload-btn {
       padding: 0.5rem 1rem;

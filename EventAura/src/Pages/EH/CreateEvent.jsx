@@ -123,24 +123,24 @@ const CreateEvent = () => {
                 <div>
                   <label>Golden Tickets</label>
                   <div className="ticket-inputs">
-                    <input type="number" placeholder="Count" />
-                    <input type="number" placeholder="Price" />
+                    <input type="number"  min="0" placeholder="Count" />
+                    <input type="text"  placeholder='Price' />
                   </div>
                 </div>
                 
                 <div>
                   <label>Silver Tickets</label>
                   <div className="ticket-inputs">
-                    <input type="number" placeholder="Count" />
-                    <input type="number" placeholder="Price" />
+                    <input type="number"  min="0" placeholder="Count" />
+                    <input type="text" placeholder="Price" />
                   </div>
                 </div>
                 
                 <div>
                   <label>Bronze Tickets</label>
                   <div className="ticket-inputs">
-                    <input type="number" placeholder="Count" />
-                    <input type="number" placeholder="Price" />
+                    <input type="number"  min="0" placeholder="Count" />
+                    <input type="text" placeholder="Price" />
                   </div>
                 </div>
               </div>

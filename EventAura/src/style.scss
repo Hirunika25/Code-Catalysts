@@ -122,11 +122,20 @@ body{
  /*Search Bar*/
  /*SearchBar.jsx*/
  .search-bar {
+  
     .input-group {
+      display: flex;
+      align-items: center;
+      
       .form-control {
         border-radius: 0;
         height: 2.5rem;
+        
       }
+      .dropdown {
+      display: flex;
+      align-items: center;
+    }
       .dropdown-toggle {
         border-radius: 0;
         background-color: $primary-color; 
@@ -139,5 +148,15 @@ body{
         color: #fff;
       }
       }
+      .input-group-text {
+        background-color: #fff;
+        border: none;
+        padding: 0.5rem;
+      }
+      
     }
+    .dropdown {
+    margin-right: 1rem;
   }
+  }
+  
