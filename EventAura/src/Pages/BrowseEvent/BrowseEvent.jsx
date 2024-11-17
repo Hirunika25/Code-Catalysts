@@ -31,7 +31,7 @@ const BrowseEvent = () => {
                 </div>
                 <div className = 'card-body p-4'>
                   <div className='event-details'>
-                    <p className='event-date-time' > 20, October 2024 | 07:00 PM</p>
+                    <p className='event-date-time' > 1st of April 2024 | 06.30 PM</p>
                     <p className='event-location'>National Youth Council</p>
                   </div>
                   <div className='event-title'>
@@ -51,7 +51,7 @@ const BrowseEvent = () => {
                 </div>
                 <div className = 'card-body p-4'>
                   <div className='event-details'>
-                     <p className='event-date-time' >20, October 2024 | 07:00 PM</p>
+                     <p className='event-date-time' >1st of April 2024 | 06.30 PM</p>
                      <p className='event-location'>National Youth Council</p>
                   </div>
                 <div className='event-title'>
@@ -71,7 +71,7 @@ const BrowseEvent = () => {
                 </div>
                 <div className = 'card-body p-4'>
                     <div className='event-details'>
-                      <p className='event-date-time' > 20, October 2024 | 07:00 PM</p>
+                      <p className='event-date-time' > 1st of April 2024 | 06.30 PM</p>
                       <p className='event-location'>National Youth Council</p>
                     </div>
                     <div className='event-title'>
@@ -95,7 +95,7 @@ const BrowseEvent = () => {
                 </div>
                 <div className = 'card-body p-4'>
                     <div className='event-details'>
-                        <p className='event-date-time' > 20, October 2024 | 07:00 PM</p>
+                        <p className='event-date-time' >1st of April 2024 | 06.30 PM</p>
                         <p className='event-location'>National Youth Council</p>
                     </div>
                     <div className='event-title'>
@@ -115,7 +115,7 @@ const BrowseEvent = () => {
                 </div>
                 <div className = 'card-body p-4'>
                   <div className='event-details'>
-                      <p className='event-date-time' > 20, October 2024 | 07:00 PM</p>
+                      <p className='event-date-time' > 1st of April 2024 | 06.30 PM</p>
                       <p className='event-location'>National Youth Council</p>
                     </div>
                     <div className='event-title'>
@@ -135,7 +135,7 @@ const BrowseEvent = () => {
                 </div>
                 <div className = 'card-body p-4'>
                    <div className='event-details'>
-                      <p className='event-date-time' > 20, October 2024 | 07:00 PM</p>
+                      <p className='event-date-time' > 1st of April 2024 | 06.30 PM</p>
                       <p className='event-location'>National Youth Council</p>
                     </div>
                     <div className='event-title'>

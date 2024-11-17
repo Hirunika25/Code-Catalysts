@@ -1,0 +1,30 @@
+/* EHHome.scss */
+
+/* Custom styling for the remaining tickets text */
+.remaining-tickets-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;  /* Primary button color */
+    text-align: center;
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+    cursor: pointer; /* Indicate it's clickable */
+  }
+  
+  /* Hover effect */
+  .remaining-tickets-link:hover {
+    background-color: #0056b3;  /* Darker shade of the button color on hover */
+    transform: translateY(-3px); /* Slightly raise the text on hover */
+    text-decoration: underline; /* Add underline on hover for emphasis */
+  }
+  
+  /* Active state (when clicked) */
+  .remaining-tickets-link:active {
+    transform: translateY(1px); /* Slightly lower the text on click for feedback */
+  }
+  
