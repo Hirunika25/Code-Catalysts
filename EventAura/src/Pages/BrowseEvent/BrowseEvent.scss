@@ -63,3 +63,64 @@ $text-white: #FFFFFF;
     text-decoration: underline;
   }
 
+
+  .remaining-tickets-button {
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color: #007bff; 
+    color: #fff; 
+    text-decoration: none; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    text-align: center;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.remaining-tickets-button:hover {
+    background-color: #0056b3; 
+}
+.remaining-tickets-button {
+  display: inline-block; 
+  padding: 10px 20px; 
+  background-color: #007bff; 
+  color: #fff; 
+  text-decoration: none; 
+  border: none; 
+  border-radius: 5px; 
+  font-size: 16px; 
+  text-align: center;
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+
+.remaining-tickets-button:hover {
+  background-color: #0056b3; 
+}
+
+.sold-out-button {
+  display: inline-block; 
+  padding: 10px 20px; 
+  background-color: #dc3545; 
+  color: #fff; 
+  border: none; 
+  border-radius: 5px; 
+  font-size: 16px; 
+  text-align: center;
+  cursor: default; 
+  opacity: 0.7;  
+}
+.card {
+  height: 100%; /* maximum height */
+  display: flex;
+  flex-direction: column; 
+}
+
+.card-body {
+  flex-grow: 1; 
+}
+
+.event-footer {
+  margin-top: auto; 
+}

@@ -14,12 +14,14 @@ const OngoingEvents = () => {
           <EHHeader />
       </header>
 
+      <h1 className="text-center my-5">Your Ongoing Events</h1>
+
        {/*Body Content */}
        <section className = 'section-2 bg-light py-5'>
         <div className = 'container'>
 
           {/*1st Row*/}
-          <div className = 'row pt-3'>
+          {/*<div className = 'row pt-3'>
             <div className = 'col-md-4'>
               <div className = 'card shadow border-0'>
                 <div className = 'card-img-top'>
@@ -80,10 +82,11 @@ const OngoingEvents = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div>*/}
 
           {/*2nd Row*/}
           <div className = 'row pt-3'>
+
             <div className = 'col-md-4'>
               <div className = 'card shadow border-0'>
                 <div className = 'card-img-top'>
@@ -99,7 +102,7 @@ const OngoingEvents = () => {
                     </div>
                     <div className = 'event-footer d-flex justify-content-between align-items-center mt-3'>
                           <p className='event-price'>2,000 LKR <span className="price-subtext"><br/>upwards</span></p>
-                          
+                          <span className='sold-out-button'>Sold Out</span>
                     </div>
                 </div>
               </div>
@@ -119,7 +122,8 @@ const OngoingEvents = () => {
                     </div>
                     <div className = 'event-footer d-flex justify-content-between align-items-center mt-3'>
                           <p className='event-price'>2,000 LKR <span className="price-subtext"><br/>upwards</span></p>
-                          <span className="remaining-tickets-link">Remaining Tickets</span>
+                          <Link to='/BuyTickets' className='remaining-tickets-button'>Remaining Tickets</Link>
+
                     </div>
                 </div>
               </div>
@@ -139,7 +143,8 @@ const OngoingEvents = () => {
                     </div>
                     <div className = 'event-footer d-flex justify-content-between align-items-center mt-3'>
                           <p className='event-price'>2,000 LKR <span className="price-subtext"><br/>upwards</span></p>
-                          <Link to = '/TBEventDetails' className='btn btn-primary'>Book Now</Link>
+                          <Link to='/BuyTickets' className='remaining-tickets-button'>Remaining Tickets</Link>
+
                     </div>
                 </div>
               </div>
