@@ -40,9 +40,11 @@ import CreateEvent from './Pages/EH/CreateEvent';
 import EHCart from './Pages/EH/EHCart';
 import EHHome from './Pages/EH/EHHome';
 import OngoingEvents from './Pages/EH/OngoingEvents';
+import UpdateEvent from './Pages/EH/UpdateEvent';
 
 import OtherLogin from './Pages/OtherLogin/OtherLogin';
 import PaymentGate from './Pages/PaymentGate/PaymentGate';
+
 
 
 
@@ -106,6 +108,7 @@ function App() {
             <Route path='/EHCart' element = {<EHCart />} />
             <Route path='/EHHome' element = {<EHHome />} />
             <Route path='/OngoingEvents' element = {<OngoingEvents />} />
+            <Route path='/UpdateEvent' element = {<UpdateEvent />} />
 
             <Route path='/OtherLogin' element = {<OtherLogin />} />
             <Route path='/PaymentGate' element = {<PaymentGate />} />
