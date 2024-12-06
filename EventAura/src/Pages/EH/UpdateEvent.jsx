@@ -24,11 +24,13 @@ const UpdateEvent = () => {
               
               <div className="input-group">
                 <div className="date-input">
-                  <label htmlFor="eventDate">New Date</label>
+                  {/*<label htmlFor="eventDate">New Date</label>*/}
                   <div className="input-with-button">
+                    <label htmlFor="eventDate">New Date</label>
                      <button type="button" className="do-not-update-btn">Do not update</button>
-                     <input type="date" name="eventDate" id="eventDate" />
+                     {/*<input type="date" name="eventDate" id="eventDate" />*/}
                   </div>
+                  <input type="date" name="eventDate" id="eventDate" />
                 </div>
                 <div className="time-inputs">
                   <div className="start-time">

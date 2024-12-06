@@ -19,9 +19,9 @@ const EHHome = () => {
         <h1 className="text-center my-5">Monitor your work here!</h1>
 
      
-        <div className="row pt-5 px-3 gx-5">  {/* Added padding and gap between columns */}
+        <div className="row pt-5 px-3 gx-5">  
 
-              <div className="col-md-4 mb-4 position-relative"> {/* Added position-relative */}
+              <div className="col-md-4 mb-4 position-relative"> 
                 <div className="card shadow border-0">
                   <div className="card-img-top">
                       <img src={Cover01} alt="Banner1" className="w-100"/>
@@ -47,7 +47,6 @@ const EHHome = () => {
                   </div>
                 </div>
               </div>
-
           </div>
 
 

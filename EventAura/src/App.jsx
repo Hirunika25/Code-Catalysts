@@ -45,6 +45,12 @@ import UpdateEvent from './Pages/EH/UpdateEvent';
 import OtherLogin from './Pages/OtherLogin/OtherLogin';
 import PaymentGate from './Pages/PaymentGate/PaymentGate';
 
+import UserHome from './Pages/CommonPages/UserHome/UserHome';
+import AdminOngoing from './Pages/CommonPages/AdminOngoing';
+import UserDetails from './Pages/CommonPages/UserDetails/UserDetails';
+import ViewEvent from './Pages/CommonPages/ViewEvent/ViewEvent';
+
+
 
 
 
@@ -112,6 +118,16 @@ function App() {
 
             <Route path='/OtherLogin' element = {<OtherLogin />} />
             <Route path='/PaymentGate' element = {<PaymentGate />} />
+
+            <Route path='/UserHome' element = {<UserHome />} />
+            <Route path='/AdminOngoing' element = {<AdminOngoing />} />
+            <Route path='/UserDetails' element = {<UserDetails/>} />
+            <Route path='/ViewEvent' element = {<ViewEvent/>} />
+
+
+            
+           
+
             
           </Routes>
       </BrowserRouter>

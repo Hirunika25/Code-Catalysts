@@ -153,6 +153,7 @@ const OngoingEvents = () => {
         </div>
 
       </section>
+      
       <footer>
           <SubFooter />
         </footer>

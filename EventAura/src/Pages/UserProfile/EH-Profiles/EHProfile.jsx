@@ -1,5 +1,5 @@
 import React from 'react'
-import TBHeader from '../../../Components/Header/TBHeader'
+import TBHeader from '../../../Components/Header/EHHeader'
 import SubFooter from '../../../Components/Footer/SubFooter'
 import profilelogo from '../../../assets/Profile-logo.png';
 import '../profile.scss';
