@@ -2,125 +2,108 @@ h1 {
     font-size: 3rem;
     font-weight: bold;
   }
- /* event-Details {
-    padding: 2rem;
-    text-align: center;
-    text-decoration: none;
-    
-    .banner {
-      position: relative;
-      height: 300px;
-      background-image: url('../../assets/BG-10.png');
-      background-size: cover;
-      background-position: center;
-      display: flex;
-      align-items: center; 
-      justify-content: center;
-  
-      .banner-title {
-        color: white;
-        font-size: 3rem;
-        text-align: center;
-      }
-    }
-}*/
+ 
+.event-details {
+  .banner {
+    position: relative;
+    height: 300px;
+    background-image: url('../../assets/BG-10.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
 
-.event-Details {
-    padding: 2rem;
-    text-align: center;
-    text-decoration: none;
-  
-    .banner {
-      position: relative;
-      height: 300px;
-      background-image: url('../../assets/BG-10.png');
-      background-size: cover;
-      background-position: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  
-      .banner-title {
-        color: white;
-        font-size: 3rem;
+    .banner-title {
+      color: white;
+      font-size: 3rem;
+      text-align: center;
+    }
+  }
+}
+.event-info {
+  margin-top: 2rem;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    &.meta-info {
+      flex-wrap: wrap;
+      gap: 2rem;
+
+      .meta-item {
+        flex: 1 1 23%;
         text-align: center;
+
+        span {
+          font-weight: bold;
+          display: block;
+        }
       }
     }
-  
-    .event-info {
-      margin-top: 2rem;
-      padding: 2rem;
-      background-color: #fff;
-      border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      
-      .event-meta {
-        .meta-item {
-          margin-bottom: 1rem;
-          font-size: 1.1rem;
-          color: #555;
-  
-          span {
-            font-weight: bold;
-          }
-        }
-  
-        .attendee-count {
-          margin-top: 1rem;
-  
-          .download-btn {
-            background-color: #007bff;
-            color: white;
-            border: none;
-            padding: 0.5rem 1rem;
-            margin-top: 0.5rem;
-            cursor: pointer;
-            border-radius: 5px;
-          }
-        }
+
+    &.attendee-info {
+      flex-direction: column;
+      text-align: center;
+
+      .download-btn {
+        margin-top: 1rem;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        cursor: pointer;
       }
-  
-      .ticket-info {
-        margin-top: 2rem;
-        h3 {
-          font-size: 1.5rem;
-          margin-bottom: 1rem;
-          font-weight: bold;
-        }
-  
-        .ticket-types {
-          display: flex;
-          justify-content: space-around;
-          font-size: 1.1rem;
-  
-          .ticket-type {
-            background-color: #f0f0f0;
-            padding: 0.5rem 1rem;
-            border-radius: 5px;
-          }
-        }
+    }
+
+    &.ticket-info {
+      flex-direction: column;
+      text-align: center;
+
+      h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
       }
-  
-      .action-buttons {
-        margin-top: 2rem;
+
+      .ticket-types {
         display: flex;
-        justify-content: space-between;
-  
-        .update-btn,
-        .delete-btn {
-          background-color: #28a745;
-          color: white;
-          border: none;
-          padding: 0.75rem 1.5rem;
-          font-size: 1rem;
+        justify-content: center;
+        gap: 2rem;
+
+        .ticket-type {
+          background-color: #f0f0f0;
+          padding: 0.5rem 1rem;
           border-radius: 5px;
-          cursor: pointer;
         }
-  
-        .delete-btn {
-          background-color: #dc3545;
-        }
+      }
+    }
+
+    &.action-buttons {
+      justify-content: center;
+      gap: 2rem;
+
+      .update-btn,
+      .delete-btn {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .delete-btn {
+        background-color: #dc3545;
       }
     }
   }
-  
+}
