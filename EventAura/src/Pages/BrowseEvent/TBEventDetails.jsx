@@ -7,6 +7,7 @@ import SearchBar from './../../Components/SearchBar';
 import SubFooter from './../../Components/Footer/SubFooter';
 import BannerImage from '../../assets/banner.png';
 import HostImage from '../../assets/HostLogo.png';
+import eventbanner from '../../assets/BG-10.png';
 
 const TBEventDetails = () => {
   return (
@@ -23,8 +24,7 @@ const TBEventDetails = () => {
 
       {/* Event Details Section */}
       <section className="event-details">
-
-        <div className="banner">
+          <div className="banner" style={{backgroundImage: `url(${eventbanner})`, }}>
           <h1 className="banner-title"><b>SKY HEROES</b></h1>
         </div>
         

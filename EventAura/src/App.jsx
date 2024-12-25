@@ -49,6 +49,16 @@ import UserHome from './Pages/CommonPages/UserHome/UserHome';
 import AdminOngoing from './Pages/CommonPages/AdminOngoing';
 import UserDetails from './Pages/CommonPages/UserDetails/UserDetails';
 import ViewEvent from './Pages/CommonPages/ViewEvent/ViewEvent';
+import DeleteEvent from './Pages/CommonPages/DeleteEvent/DeleteEvent';
+
+import OtherSideBar from './Pages/UserProfile/Other-User-Profiles/OtherSideBar';
+import OtherProfile from './Pages/UserProfile/Other-User-Profiles/OtherProfile';
+import OtherChangePW from './Pages/UserProfile/Other-User-Profiles/OtherChangePW';
+import OtherSignOut from './Pages/UserProfile/Other-User-Profiles/OtherSignOut';
+
+import AddNewMemeber from './Pages/Developer-pages/AddNewMemeber';
+import VerificationPg01 from './Pages/Developer-pages/VerificationPg01';
+import VerficationPg02 from './Pages/Developer-pages/VerficationPg02';
 
 
 
@@ -105,6 +115,12 @@ function App() {
             <Route path='/EHSignout' element = {<EHSignOut />} />
             <Route path='/EHSidebar' element = {<EHSidebar />} />
             
+            <Route path='/OtherSideBar' element = {<OtherSideBar/>} />
+            <Route path='/OtherProfile' element = {<OtherProfile/>} />
+            <Route path='/OtherChangePW' element = {<OtherChangePW/>} />
+            <Route path='/OtherSignOut' element = {<OtherSignOut/>} />
+              
+
             <Route path='/TBLogin' element = {<TBLogin />} />
             <Route path='/TBCreateAccount' element = {<TBCreateAccount />} />
 
@@ -123,12 +139,13 @@ function App() {
             <Route path='/AdminOngoing' element = {<AdminOngoing />} />
             <Route path='/UserDetails' element = {<UserDetails/>} />
             <Route path='/ViewEvent' element = {<ViewEvent/>} />
+            <Route path='/DeleteEvent' element = {<DeleteEvent/>} />
+
+            <Route path='/AddNewMember' element = {<AddNewMemeber/>} />
+            <Route path='/VerificationPg01' element = {<VerificationPg01/>} />
+            <Route path='/VerificationPg02' element = {<VerficationPg02/>} />
 
 
-            
-           
-
-            
           </Routes>
       </BrowserRouter>
     </>

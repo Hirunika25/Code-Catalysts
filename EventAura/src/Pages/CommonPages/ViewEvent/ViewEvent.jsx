@@ -39,7 +39,8 @@ const ViewEvent = () => {
               {/* Row 2: Attendee Count */}
               <div className="row attendee-info">
                 <span>Attendee Count:</span> <strong>35</strong>
-                <button className="download-btn">Download Attendee List</button>
+
+                <a href="/path/to/agenda.pdf" download className="button-link">Download Attendee List</a> 
               </div>
 
               {/* Row 3: Ticket Info */}
@@ -55,13 +56,10 @@ const ViewEvent = () => {
               {/* Row 4: Action Buttons */}
               <div className="row action-buttons">
                 <button className="update-btn">Update Event</button>
-                <button className="delete-btn">Delete Event</button>
+                <Link to = '/DeleteEvent' className='delete-btn'>Delete Event</Link >
               </div>
             </div>
-            
           </section>
-
-                    
 
         <footer>
           <AdminFooter />

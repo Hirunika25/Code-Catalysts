@@ -19,7 +19,7 @@ const UserHeader = () => {
                     <Nav.Link as={Link} to="/AdminOngoing"className = 'nav-link'>Ongoing events</Nav.Link>
                     <Nav.Link as={Link} to="/pendingRequests" className = 'nav-link'>Pending requests</Nav.Link>
                     <Nav.Link as={Link} to="/inquiries" className = 'nav-link'>Inquiries</Nav.Link>
-                    <Nav.Link as={Link} to="/developer" className = 'nav-link'>User Account</Nav.Link>
+                    <Nav.Link as={Link} to="/OtherProfile" className = 'nav-link'>User Account</Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
             </Navbar>

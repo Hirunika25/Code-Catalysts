@@ -21,6 +21,7 @@ h1 {
     }
   }
 }
+
 .event-info {
   margin-top: 2rem;
   background-color: #fff;
@@ -30,27 +31,24 @@ h1 {
 
   .row {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column; 
     margin-bottom: 2rem;
+    width: 100%; 
 
     &.meta-info {
-      flex-wrap: wrap;
-      gap: 2rem;
-
+      gap: 1rem;
       .meta-item {
-        flex: 1 1 23%;
-        text-align: center;
-
+        display: flex; 
+        justify-content: space-between; 
+        text-align: left;
+        width: 100%; 
         span {
           font-weight: bold;
-          display: block;
         }
       }
     }
 
     &.attendee-info {
-      flex-direction: column;
       text-align: center;
 
       .download-btn {
@@ -65,7 +63,6 @@ h1 {
     }
 
     &.ticket-info {
-      flex-direction: column;
       text-align: center;
 
       h3 {
@@ -92,7 +89,7 @@ h1 {
 
       .update-btn,
       .delete-btn {
-        background-color: #28a745;
+        background-color: #000;
         color: white;
         border: none;
         padding: 0.75rem 1.5rem;
@@ -103,6 +100,7 @@ h1 {
 
       .delete-btn {
         background-color: #dc3545;
+        text-decoration: none;
       }
     }
   }

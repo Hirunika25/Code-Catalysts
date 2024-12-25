@@ -37,6 +37,7 @@ const Home = () => {
                 <br /><Link to='/EHHome'> #EH Home pg</Link> {/*Do not remove this. */}
                 <br /><Link to='/UpdateEvent'> #Update Event pg</Link> {/*Do not remove this. */}
                 <br /><Link to='/UserHome'> #Admin/Developer/Manager Home pg</Link> {/*Do not remove this. */}
+                <br /><Link to='/AddNewMember'> #Developer-Add New Member</Link> {/*Do not remove this. */}
 
               </div>
             </div>
