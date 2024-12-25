@@ -1,14 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import './ViewEvent.scss';
-import UserHeader from './../../../Components/Header/UserHeader';
-import AdminFooter from './../../../Components/Footer/AdminFooter';
+import MainFooter from './../../../Components/Footer/MainFooter';
+import EHHeader from './../../../Components/Header/EHHeader';
 
-const ViewEvent = () => {
+const EHViewEvent = () => {
   return (
     <>
+
         <header>
-          <UserHeader />
+          <EHHeader />
         </header>
 
 
@@ -48,15 +49,15 @@ const ViewEvent = () => {
         {/* Action Buttons */}
         <div className="action-buttons">
           <Link to="/UpdateEvent" className="update-btnn">Update Event</Link>
-          <Link to="/DeleteEvent" className="delete-btnn">Delete Event</Link>
+          <Link to="/EHDeleteEvent" className="delete-btnn">Delete Event</Link>
         </div>
       </section>
 
         <footer>
-          <AdminFooter />
+          <MainFooter />
         </footer>
     </>
   )
 }
 
-export default ViewEvent
+export default EHViewEvent

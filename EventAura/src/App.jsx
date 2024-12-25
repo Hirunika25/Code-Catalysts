@@ -48,8 +48,13 @@ import PaymentGate from './Pages/PaymentGate/PaymentGate';
 import UserHome from './Pages/CommonPages/UserHome/UserHome';
 import AdminOngoing from './Pages/CommonPages/AdminOngoing';
 import UserDetails from './Pages/CommonPages/UserDetails/UserDetails';
+
 import ViewEvent from './Pages/CommonPages/ViewEvent/ViewEvent';
+import EHViewEvent from './Pages/CommonPages/ViewEvent/EHViewEvent';
+import ManagerViewE from './Pages/CommonPages/ViewEvent/ManagerViewE';
+
 import DeleteEvent from './Pages/CommonPages/DeleteEvent/DeleteEvent';
+import EHDeleteEvenet from './Pages/CommonPages/DeleteEvent/EHDeleteEvenet';
 
 import OtherSideBar from './Pages/UserProfile/Other-User-Profiles/OtherSideBar';
 import OtherProfile from './Pages/UserProfile/Other-User-Profiles/OtherProfile';
@@ -59,10 +64,6 @@ import OtherSignOut from './Pages/UserProfile/Other-User-Profiles/OtherSignOut';
 import AddNewMemeber from './Pages/Developer-pages/AddNewMemeber';
 import VerificationPg01 from './Pages/Developer-pages/VerificationPg01';
 import VerficationPg02 from './Pages/Developer-pages/VerficationPg02';
-
-
-
-
 
 
 function App() {
@@ -138,8 +139,13 @@ function App() {
             <Route path='/UserHome' element = {<UserHome />} />
             <Route path='/AdminOngoing' element = {<AdminOngoing />} />
             <Route path='/UserDetails' element = {<UserDetails/>} />
+
             <Route path='/ViewEvent' element = {<ViewEvent/>} />
+            <Route path='/EHViewEvent' element = {<EHViewEvent/>} />
+            <Route path='/ManagerViewEvent' element = {<ManagerViewE/>} />
+
             <Route path='/DeleteEvent' element = {<DeleteEvent/>} />
+            <Route path='/EHDeleteEvent' element = {<EHDeleteEvenet/>} />
 
             <Route path='/AddNewMember' element = {<AddNewMemeber/>} />
             <Route path='/VerificationPg01' element = {<VerificationPg01/>} />

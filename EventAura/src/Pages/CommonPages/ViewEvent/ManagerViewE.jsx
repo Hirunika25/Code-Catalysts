@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import './ViewEvent.scss';
-import UserHeader from './../../../Components/Header/UserHeader';
 import AdminFooter from './../../../Components/Footer/AdminFooter';
+import UserHeader from './../../../Components/Header/UserHeader';
 
-const ViewEvent = () => {
+const ManagerViewE = () => {
   return (
     <>
         <header>
@@ -45,11 +45,6 @@ const ViewEvent = () => {
           </div>
         </div>
 
-        {/* Action Buttons */}
-        <div className="action-buttons">
-          <Link to="/UpdateEvent" className="update-btnn">Update Event</Link>
-          <Link to="/DeleteEvent" className="delete-btnn">Delete Event</Link>
-        </div>
       </section>
 
         <footer>
@@ -59,4 +54,4 @@ const ViewEvent = () => {
   )
 }
 
-export default ViewEvent
+export default ManagerViewE
