@@ -4,13 +4,20 @@ import TBHeader from './../../../Components/Header/TBHeader';
 import TBSidebar from './TBSidebar';
 import SubFooter from './../../../Components/Footer/SubFooter';
 import '../profile.scss';
+import { Link } from 'react-router-dom';
 
 const TBPurchaseHistory = () => {
+  const events = [
+    { name: 'Dara 1', Golden: '2', Silver: '2', Bronza: '2' , Payment: '125 346'},
+    { name: 'Dara 2',Golden: '2', Silver: '3', Bronza: '2', Payment: '125 346' },
+    { name: 'Dara 3', Golden: '2', Silver: '3', Bronza: '2' ,Payment: '125 346'},
+  ];
+
   return (
     <>
       <header>
         <TBHeader />
-      </header>
+      </header>               
 
       <main>
         <div className="container my-5">
@@ -31,22 +38,31 @@ const TBPurchaseHistory = () => {
                     <div className="card-body profile-details">
                         <h5 className="text-center"><b>Purchase History</b></h5>
                         <p className="text-center">@username</p>
-                        <table className = 'table table-striped'>
-                          <thread>
-                              <tr>
-                                <th> </th>
-                                <th> </th>
-                                <th> </th>
+                                  
+                        {/* Table */}
+                        <table className="table table-striped">
+                          <thead>
+                            <tr>
+                              <th>Event Name</th>
+                              <th>Golden Tickets</th>
+                              <th>Silver Tickets</th>
+                              <th>Bronza Tickets</th>
+                              <th>Payment</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {events.map((event, index) => (
+                              <tr key={index}>
+                                <td>{event.name}</td>
+                                <td>{event.Golden}</td>
+                                <td>{event.Silver}</td>
+                                <td>{event.Bronza}</td>
+                                <td>{event.Payment}</td>
                               </tr>
-                            </thread>
-                            <thread>
-                              <tr>
-                                <th> </th>
-                                <th> </th>
-                                <th> </th>
-                              </tr>
-                          </thread>
-                        </table>
+                            ))}
+                          </tbody>
+                        </table> 
+
                     </div>
                   </div>
                 </div>

@@ -28,8 +28,13 @@ import TBChangePW from './Pages/UserProfile/TB-Profiles/TBChangePW';
 
 import EHSidebar from './Pages/UserProfile/EH-Profiles/EHSidebar';
 import EHSignOut from './Pages/UserProfile/EH-Profiles/EHSignOut';
-import EventHistoryEH from './Pages/UserProfile/EH-Profiles/EventHistoryEH';
 import EHChangePW from './Pages/UserProfile/EH-Profiles/EHChangePW';
+
+import EHHistory from './Pages/UserProfile/EH-Profiles/EH-EventHistory/EHHistory';
+import EHOngoingHistory from './Pages/UserProfile/EH-Profiles/EH-EventHistory/EHOngoingHistory';
+import EHPendingPaymentsHistory from './Pages/UserProfile/EH-Profiles/EH-EventHistory/EHPendingPaymentsHistory';
+import EHPendingRequests from './Pages/UserProfile/EH-Profiles/EH-EventHistory/EHPendingRequests';
+import EHRejectedHistory from './Pages/UserProfile/EH-Profiles/EH-EventHistory/EHRejectedHistory';
 
 import TBLogin from './Pages/TB/TBLogin';
 import TBCreateAccount from './Pages/TB/TBCreateAccount';
@@ -64,6 +69,7 @@ import OtherSignOut from './Pages/UserProfile/Other-User-Profiles/OtherSignOut';
 import AddNewMemeber from './Pages/Developer-pages/AddNewMemeber';
 import VerificationPg01 from './Pages/Developer-pages/VerificationPg01';
 import VerficationPg02 from './Pages/Developer-pages/VerficationPg02';
+
 
 
 function App() {
@@ -112,10 +118,15 @@ function App() {
             <Route path='/TBSidebar' element = {<TBSidebar />} />
 
             <Route path='/EHChangePW' element = {<EHChangePW />} />
-            <Route path='/EH-EventHistory' element = {<EventHistoryEH />} />
             <Route path='/EHSignout' element = {<EHSignOut />} />
             <Route path='/EHSidebar' element = {<EHSidebar />} />
             
+            <Route path='/EHHistory' element = {<EHHistory />} />
+            <Route path='/EHOngoing' element = {< EHOngoingHistory/>} />
+            <Route path='/EHPendingPayments' element = {<EHPendingPaymentsHistory />} />
+            <Route path='/EHPendingRequests' element = {<EHPendingRequests />} />
+            <Route path='/EHRejected' element = {< EHRejectedHistory/>} />
+
             <Route path='/OtherSideBar' element = {<OtherSideBar/>} />
             <Route path='/OtherProfile' element = {<OtherProfile/>} />
             <Route path='/OtherChangePW' element = {<OtherChangePW/>} />
