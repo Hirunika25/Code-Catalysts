@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import './ViewEvent.scss';
-import MainFooter from './../../../Components/Footer/MainFooter';
 import EHHeader from './../../../Components/Header/EHHeader';
+import SubFooter from './../../../Components/Footer/SubFooter';
 
 const EHViewEvent = () => {
   return (
@@ -54,7 +54,7 @@ const EHViewEvent = () => {
       </section>
 
         <footer>
-          <MainFooter />
+          <SubFooter />
         </footer>
     </>
   )
