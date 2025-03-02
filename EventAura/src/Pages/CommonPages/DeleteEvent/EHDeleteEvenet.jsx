@@ -77,7 +77,7 @@ const EHDeleteEvenet = () => {
       {showModal && (
           <div className="delete-modal">
             <p>Are you sure you want to delete this event?</p>
-            <button className="confirm-delete" onClick={() => setShowModal(false)}>Confirm</button>
+            <button className="confirm-delete" onClick={() => setShowModal(true)}>Confirm</button>
             <button className="cancel-btn" onClick={() => setShowModal(false)}>Cancel</button>
           </div>
         )}

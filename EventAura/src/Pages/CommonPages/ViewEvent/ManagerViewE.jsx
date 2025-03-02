@@ -46,7 +46,7 @@ const ManagerViewE = () => {
         </div>
 
       </section>
-
+      <div style={{ marginBottom: '80px' }}></div>
         <footer>
           <AdminFooter />
         </footer>

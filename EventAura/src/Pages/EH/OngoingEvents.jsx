@@ -122,7 +122,7 @@ const OngoingEvents = () => {
                     </div>
                     <div className = 'event-footer d-flex justify-content-between align-items-center mt-3'>
                           <p className='event-price'>2,000 LKR <span className="price-subtext"><br/>upwards</span></p>
-                          <Link to='/BuyTickets' className='remaining-tickets-button'>Remaining Tickets</Link>
+                          <Link to='/EHViewEvent' className='remaining-tickets-button'>Remaining Tickets</Link>
 
                     </div>
                 </div>
@@ -143,7 +143,7 @@ const OngoingEvents = () => {
                     </div>
                     <div className = 'event-footer d-flex justify-content-between align-items-center mt-3'>
                           <p className='event-price'>2,000 LKR <span className="price-subtext"><br/>upwards</span></p>
-                          <Link to='/BuyTickets' className='remaining-tickets-button'>Remaining Tickets</Link>
+                          <Link to='/EHViewEvent' className='remaining-tickets-button'>Remaining Tickets</Link>
 
                     </div>
                 </div>

@@ -15,8 +15,11 @@ const TBLogin = () => {
           <div className="TB-Loginform-container">
             <div className="TB-Login-overlay">
               <h2>Sign in to EventAURA</h2>
-              <p>or continue as Guest</p>
-
+              
+              <div className="guest">
+                  <small><Link to="/">or continue as Guest</Link></small>
+                </div>
+                
               <form>
                 <input type="text" placeholder="Email / Username" required />
                 <input type="password" placeholder="Password" required />
