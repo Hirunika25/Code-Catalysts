@@ -1,14 +1,14 @@
 import React from 'react'
 {/**used TBCart.scss -same className */}
 import { Link } from 'react-router-dom';
-import TBHeader from './../../Components/Header/TBHeader';
 import SubFooter from './../../Components/Footer/SubFooter';
+import EHHeader from './../../Components/Header/EHHeader';
 
 const EHCart = () => {
   return (
     <>
       <header>
-        <TBHeader />
+        <EHHeader />
       </header>
 
       <div className="cart-container">

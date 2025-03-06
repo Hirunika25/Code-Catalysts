@@ -1,12 +1,21 @@
 import React from 'react'
 import SubFooter from '../../Components/Footer/SubFooter'
+import TBHeader from './../../Components/Header/TBHeader';
 
 const AboutUS = () => {
   return (
-    <div>
-      <h1>About us pg</h1>
-      
-    </div>
+    <>
+    <header>
+        <TBHeader />
+    </header>
+
+    
+    <h1>About Us</h1>
+    
+      <footer >
+        <SubFooter />
+      </footer>
+    </>
   )
 }
 
