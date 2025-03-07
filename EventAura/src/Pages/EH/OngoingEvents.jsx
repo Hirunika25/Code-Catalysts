@@ -1,5 +1,6 @@
 import React from 'react'
-import './OngoingEvents.scss';
+//import './OngoingEvents.scss';
+import '../BrowseEvent/BrowseEvent.scss';
 import { Link } from 'react-router-dom';
 
 import EHHeader from './../../Components/Header/EHHeader';
