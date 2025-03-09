@@ -4,12 +4,13 @@ import SubFooter from '../../../Components/Footer/SubFooter'
 import profilelogo from '../../../assets/Profile-logo.png';
 import '../profile.scss';
 import EHSidebar from './EHSidebar';
+import EHHeader from '../../../Components/Header/EHHeader';
 
 const EHProfile = () => {
   return (
     <>
       <header>
-        <TBHeader />
+        <EHHeader />
       </header>
 
       <main>
